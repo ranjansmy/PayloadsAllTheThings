@@ -649,3 +649,8 @@ Obfuscated query
   * [SQLi Optimization and Obfuscation Techniques](https://paper.bobylive.com/Meeting_Papers/BlackHat/USA-2013/US-13-Salgado-SQLi-Optimization-and-Obfuscation-Techniques-Slides.pdf) by Roberto Salgado
   * [A Scientific Notation Bug in MySQL left AWS WAF Clients Vulnerable to SQL Injection](https://www.gosecure.net/blog/2021/10/19/a-scientific-notation-bug-in-mysql-left-aws-waf-clients-vulnerable-to-sql-injection/)
                                                                             
+## Mitigation
+
+In order to effectively mitigate against SQL Injection attacks, developers must use prepared statements (also known as parameterized queries) when building SQL queries based on user input. 
+
+Prepared statements prevent SQL Injection attacks by defining placeholder variables to safely pass parameters inside a SQL statement, which are automatically escaped at runtime. 
