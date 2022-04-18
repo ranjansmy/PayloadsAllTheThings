@@ -123,7 +123,7 @@ aws s3 ls s3://<bucketname> --recursive  | grep -v -E "(Bucket: |Prefix: |LastWr
 
 ```powershell
 $ aws --profile flaws sts get-caller-identity
-"Account": "XXXX26262029",
+"Account": "XXXXXX262029",
 
 
 $ aws --profile profile_name ec2 describe-snapshots
